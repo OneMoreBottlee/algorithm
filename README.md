@@ -13,3 +13,6 @@ const input = require('fs').readFileSync('예제.txt').toString().split('\n');
 
 # vs 결과값 확인하기
 node beakjoon/N단계/N.js
+
+# 백준 문제 확인하기
+ctl + shift + P > BOJ > 문제 번호 검색
