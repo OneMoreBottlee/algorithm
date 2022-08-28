@@ -3,5 +3,6 @@ const input = require('fs').readFileSync('예제.txt').toString().split('\n'); /
 for(let i = 0; i < input.length-1; i++){
     let A = Number(input[i].split(' ')[0])
     let B = Number(input[i].split(' ')[1])
+    
     console.log(A+B)
 }

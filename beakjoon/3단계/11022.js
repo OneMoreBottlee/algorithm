@@ -1,5 +1,4 @@
 const input = require('fs').readFileSync('예제.txt').toString().split('\n');
-
 const index = Number(input[0])
 result = ""
 
