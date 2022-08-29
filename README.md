@@ -1,13 +1,10 @@
 # algorithm
 
-# 백준 제출용
-//한 줄 입력
+# 백준 제출용 (한줄 / 여러줄)
 const input = require('fs').readFileSync('/dev/stdin').toString().split(' ');
-
-//여러 줄 입력
 const input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
-# vs 테스트용
+# vs 테스트용 (한줄 / 여러줄)
 const input = require('fs').readFileSync('예제.txt').toString().split(' ');
 const input = require('fs').readFileSync('예제.txt').toString().split('\n');
 
