@@ -2,8 +2,8 @@ const input = require("fs").readFileSync("예제.txt").toString().split(" ");
 
 let n = input[0];
 
-function sameDif(n) {
-  // 생성자 구하기
+function hansu(n) {
+  // 한수값 찾기
   const stringNumber = String(n);
   let sumBox = [];
   let result = 0;
@@ -23,7 +23,7 @@ function sameDif(n) {
   return result;
 }
 
-function selfNumber(n) {
+function hansuCounter(n) {
   if (n < 100) {
     return console.log(n);
   }
@@ -31,11 +31,11 @@ function selfNumber(n) {
   let count = 99;
 
   for (let i = 0; i <= range; i++) {
-    if (sameDif(i) > 0) {
+    if (hansu(i) > 0) {
       count++;
     }
   }
   console.log(count);
 }
 
-selfNumber(n);
+hansuCounter(n);
