@@ -32,32 +32,3 @@ for(let j = 1; j <= N; j++){
     if(repeatABC(input[j])){count++}
 }
 console.log(count)
-
-
-// let count = 0
-
-// for(let i = 1; i<= N; i++){
-//     let beforeValue = input[i][0]
-//     let box = {}
-//     box[input[i][0]] = 0
-//     for(let j = 0; j < input[i].length; j++) {
-//         let abc = input[i][j]
-//         if(input[i][j] === beforeValue){
-//             if(box[abc] >= 0){
-//                 box[abc]++
-//             }else{
-//                 box[abc] = 1
-//             }
-//         }else{
-//             if(box[abc]){
-//                 count
-//             }else{
-//                 box[abc] = 0
-//             }
-//         }
-//         beforeValue = abc
-//     }
-//     count++
-// }
-
-// console.log(count)
