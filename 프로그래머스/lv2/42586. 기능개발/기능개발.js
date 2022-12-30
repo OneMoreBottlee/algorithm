@@ -1,10 +1,6 @@
-function solution(progresses, speeds) {
-    let workDays = []
-    
+function solution(progresses, speeds) {    
     // 100까지 남은 작업일수 구하기
-    for(let i = 0; i < progresses.length; i++){
-      workDays.push(Math.ceil((100-progresses[i])/speeds[i]))
-    }
+    let workDays = progresses.map((progress, index)=>Math.ceil((100-progress)/speeds[index]))
   	let result = []
   	let deploy = workDays[0];
   	let count = 0;
