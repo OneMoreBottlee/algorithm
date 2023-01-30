@@ -5,9 +5,13 @@
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=OneMoreBottlee)](https://www.acmicpc.net/user/onemorebottlee)  
 </div>
 
+**[23년 2월 목표]**
+- [] 백준 실버3
+- [] 프로그래머스 1400점
+
 **[23년 1월 목표]**
-- [ ] 백준 실버4  
-- [ ] 프로그래머스 1300점  
+- [x] 백준 실버4  
+- [x] 프로그래머스 1300점  
 
 ------
 
