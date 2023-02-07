@@ -3,7 +3,7 @@ function solution(brown, yellow) {
   let result
   
   // yellow 가 정사각형 모양일때
-  if(Number.isInteger(Math.sqrt(yellow))){
+  if(Number.isInteger(Math.sqrt(sum))){
     result = [Math.sqrt(sum), Math.sqrt(sum)]
   }else{
     // yellow 가 직사각형일때
