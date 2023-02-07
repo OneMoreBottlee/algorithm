@@ -8,13 +8,13 @@ function solution(brown, yellow) {
   }else{
     // yellow 가 직사각형일때
     let num = Math.floor(Math.sqrt(yellow))
-    for(let i = 1; i <= num; i++){
-      let n = yellow / i
-      result = i*n + 2*n + (i+2)*2
+    for(let height = 1; height <= num; height++){
+      let width = yellow / height
+      result = height * width + 2 * width + (height + 2) * 2
       
-      // 조건에 맞는지 확인
+      // 조건에 맞는지 확인 & 반복문 탈출
       if(result === sum){
-        result = [n+2, i+2]
+        result = [width + 2, height + 2]
         break
       }
     }
