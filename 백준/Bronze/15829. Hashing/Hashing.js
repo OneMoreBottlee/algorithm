@@ -7,7 +7,7 @@ function solution(arr){
     const r = 31
     const M = 1234567891
     
-    return arr.map((el,i) => (abc.indexOf(el)+1) * r**i).reduce((acc,cur)=>acc+cur)%M
+    return arr.map((el,i) => ((abc.indexOf(el)+1) * r**i) %M).reduce((acc,cur)=>acc+cur)
 }
 
 
