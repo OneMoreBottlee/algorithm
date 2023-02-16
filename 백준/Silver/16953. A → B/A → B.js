@@ -18,7 +18,7 @@ function AB (a,b){
       }      
     }
   
-	if(a > b){a=b, count=-1}
+	if(a > b)count=-1
     return count
 }
 
