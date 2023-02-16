@@ -18,8 +18,7 @@ function AB (a,b){
       }      
     }
   
-	if(a > b)count=-1
-    return count
+    return a > b ? -1 : count
 }
 
 console.log(AB(A,B))
