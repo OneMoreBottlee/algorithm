@@ -1,11 +1,9 @@
 function solution(s) {
-  const dic = {"zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9}
+  const dic = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
   
-  const key = Object.keys(dic)
-  
-	for(let ke of key){
-    if(s.includes(ke)){
-      s = s.replaceAll(ke, dic[ke])
+	for(let i = 0; i < dic.length; i++){
+    if(s.includes(dic[i])){
+      s = s.replaceAll(dic[i], i)
     }
   }
   
