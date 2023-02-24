@@ -9,14 +9,15 @@ function solution (arr) {
 function check (str){
     const stack = []
     for(let i = 0; i < str.length; i++){
-        if(str[i] === "(" || str[i] === "["){
-            stack.push(str[i])
+        const abc = str[i]
+        if(abc === "(" || abc === "["){
+            stack.push(abc)
         }
-        if(str[i] === ")"){
-            stack[stack.length-1] === "(" ? stack.pop() : stack.push(str[i])
+        if(abc === ")"){
+            stack[stack.length-1] === "(" ? stack.pop() : stack.push(abc)
         }
-        if(str[i] === "]"){
-            stack[stack.length-1] === "[" ? stack.pop() : stack.push(str[i])
+        if(abc === "]"){
+            stack[stack.length-1] === "[" ? stack.pop() : stack.push(abc)
         }
     }
     return stack.length === 0 ? "yes" : "no"
