@@ -10,14 +10,15 @@ function check (str){
     const stack = []
     for(let i = 0; i < str.length; i++){
         const abc = str[i]
+        const length = stack.length-1
         if(abc === "(" || abc === "["){
             stack.push(abc)
         }
         if(abc === ")"){
-            stack[stack.length-1] === "(" ? stack.pop() : stack.push(abc)
+            stack[length] === "(" ? stack.pop() : stack.push(abc)
         }
         if(abc === "]"){
-            stack[stack.length-1] === "[" ? stack.pop() : stack.push(abc)
+            stack[length] === "[" ? stack.pop() : stack.push(abc)
         }
     }
     return stack.length === 0 ? "yes" : "no"
