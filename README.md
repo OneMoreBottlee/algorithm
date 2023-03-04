@@ -5,10 +5,14 @@
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=OneMoreBottlee)](https://www.acmicpc.net/user/onemorebottlee)  
 </div>
 
+**[23년 3월 목표]**
+- [] 백준 골드
+- [] 매일 2문제 풀기
+
 **[23년 2월 목표]**
 - [x] 백준 실버3 => 실버2(230218) && Class 2++ 230224
 - [x] 프로그래머스 1400점(230223)
-- [ ] 매일 2문제씩 풀기
+- [x] 매일 2문제씩 풀기
 
 **[23년 1월 목표]**
 - [x] 백준 실버4  
