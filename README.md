@@ -7,7 +7,8 @@
 
 **[23년 4월 목표]**
 - [x] 백준 골드3 230415
-- [ ] 백준 Class 3++
+- [x] 백준 Class 3++ 230416
+![Class 3++ 달성](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd3df2bc5-5c37-4016-b07d-7555c4f6cbc5%2F%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2023-04-16_23-21-44.png?id=9c214791-79bf-44a7-9aad-f40fcc53c946&table=block&spaceId=ad347a12-32b5-4bbe-b386-5ed5e4302186&width=2000&userId=ad2b0e06-4098-4883-a022-1b4df4f25f85&cache=v2)
 - [ ] 매일 1문제 이상 풀기
 
 **[23년 3월 목표]**
