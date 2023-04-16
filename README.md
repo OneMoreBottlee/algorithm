@@ -5,10 +5,15 @@
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=OneMoreBottlee)](https://www.acmicpc.net/user/onemorebottlee)  
 </div>
 
+**[23년 4월 목표]**
+- [x] 백준 골드3 230415
+- [ ] 백준 Class 3++
+- [ ] 매일 1문제 이상 풀기
+
 **[23년 3월 목표]**
 - [x] 백준 골드 230312
 - [x] 백준 Class 3 230309 => Class 3+
-- [ ] 매일 2문제 풀기
+- [x] 매일 2문제 풀기
 
 **[23년 2월 목표]**
 - [x] 백준 실버3 => 실버2(230218) && Class 2++ 230224
