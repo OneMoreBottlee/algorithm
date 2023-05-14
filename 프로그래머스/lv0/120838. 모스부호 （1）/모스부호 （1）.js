@@ -1,6 +1,4 @@
 function solution(letter) {
-    const letterArr = letter.split(" ")
-    
     const morse = { 
     '.-':'a','-...':'b','-.-.':'c','-..':'d','.':'e','..-.':'f',
     '--.':'g','....':'h','..':'i','.---':'j','-.-':'k','.-..':'l',
@@ -8,5 +6,5 @@ function solution(letter) {
     '...':'s','-':'t','..-':'u','...-':'v','.--':'w','-..-':'x',
     '-.--':'y','--..':'z'}
     
-    return letterArr.map(el => morse[el]).join("")
+    return letter.split(" ").reduce((acc, cur) => acc + morse[cur], "")
 }
