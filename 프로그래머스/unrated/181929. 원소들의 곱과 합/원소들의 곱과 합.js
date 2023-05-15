@@ -1,5 +1,11 @@
 function solution(num_list) {
-    const sum = num_list.reduce((acc, cur) => acc+cur, 0)**2
-    const multiply = num_list.reduce((acc, cur) => acc*cur, 1)
-    return multiply < sum ? 1 : 0
+    let sum = 0
+    let multiply = 1
+    
+    for(let i = 0; i < num_list.length; i++){
+        sum += num_list[i]
+        multiply *= num_list[i]
+    }
+    
+    return multiply < sum**2 ? 1 : 0
 }
