@@ -1,1 +1,3 @@
-const solution = (array, n) => +array.filter(a => Math.abs(a-n) === Math.min(...array.map(a => Math.abs(a-n)))).sort((a,b) => a-b)[0]
+function solution(array, n) {
+  return array.sort((a,b) => Math.abs(n-a) - Math.abs(n - b) || a-b)[0]
+}
