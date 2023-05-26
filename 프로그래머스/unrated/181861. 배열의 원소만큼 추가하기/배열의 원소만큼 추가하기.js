@@ -1,9 +1,3 @@
 function solution(arr) {
-  	const X = []
-    arr.forEach(el => {
-      for(let i = 0; i < el; i++){
-        X.push(el)
-      }
-    })
-    return X
+  	return arr.reduce((acc, cur) => [...acc, ...new Array(cur).fill(cur)], [])
 }
