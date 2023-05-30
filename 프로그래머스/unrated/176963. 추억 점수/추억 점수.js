@@ -3,5 +3,5 @@ function solution(name, yearning, photo) {
   
   name.forEach((el, index) => obj[el] = yearning[index])
     
-  return photo.map(el => el.reduce((sum, name) => obj[name] === undefined ? sum + 0 : sum + obj[name], 0))
+  return photo.map(el => el.reduce((sum, name) => sum += obj[name] ?? 0, 0))
 }
