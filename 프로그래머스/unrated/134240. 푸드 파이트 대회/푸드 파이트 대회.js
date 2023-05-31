@@ -1,5 +1,5 @@
 function solution(food) {
-  	let result = ""
-    food.forEach((el, index) => result += String(index).repeat(Math.floor(el/2)))
-    return [...result.split(""), "0" , ...result.split("").reverse()].join("")
+  	let matchFood = ""
+    food.forEach((el, index) => matchFood += String(index).repeat(Math.floor(el/2)))
+    return [...matchFood.split(""), "0" , ...matchFood.split("").reverse()].join("")
 }
