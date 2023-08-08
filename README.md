@@ -3,15 +3,15 @@
 # Algorithm
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=OneMoreBottlee)](https://www.acmicpc.net/user/onemorebottlee)
-![프로그래머스](https://file.notion.so/f/s/348b3a6d-9542-4869-b495-2755a9c0f031/Untitled.png?id=b1d49a35-2b6f-4b67-8e1f-0e2c9c8577b0&table=block&spaceId=ad347a12-32b5-4bbe-b386-5ed5e4302186&expirationTimestamp=1686036662195&signature=M15UoN6aevC02pMkqf80c0Ok4fp_FVf31QLD-fXHjaM&downloadName=Untitled.png)
+
 </div>
 <br/>
 
 **[23년 6월 목표]**
-- [ ] 백준 Class 4 달성하기
-- [ ] 프로그래머스 LV1 다 풀기
-- [ ] 프로그래머스 LV2 풀이 시작
-- [ ] 매일 한문제 이상 풀기
+- [x] 백준 Class 4 달성하기
+- [x] 프로그래머스 LV1 다 풀기
+- [x] 프로그래머스 LV2 풀이 시작
+- [x] 매일 한문제 이상 풀기
 <br/>
 
 **[23년 5월 목표]**
